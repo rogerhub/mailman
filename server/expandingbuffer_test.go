@@ -1,8 +1,5 @@
-/**
- *  Unit tests for ExpandingBuffer
- */
-
-package mailman
+// Unit tests for ExpandingBuffer
+package server
 
 import (
 	"testing"

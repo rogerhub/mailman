@@ -1,8 +1,5 @@
-/**
- *  Unit tests for maildog
- */
-
-package mailman
+// Test cases for mailman package
+package server
 
 import (
 	"testing"
@@ -28,3 +25,5 @@ func TestListContains (t *testing.T) {
 	AssertNotListContains(t, "boot@domain.com", "toot boot@example.com")
 	AssertListContains(t, "boot@domain.com", "boot boot@example.com")
 }
+
+

@@ -1,10 +1,5 @@
-/**
- *  List class designed to support any-sized lists but minimize memory usage with 1-length list (most common).
- *
- *  @internal Array with resize operation
- */
-
-package mailman
+// List class designed to support any-sized lists but minimize memory usage with 1-length list (most common).
+package server
 
 type ExpandingBufferNode interface {}
 type ExpandingBuffer struct {
